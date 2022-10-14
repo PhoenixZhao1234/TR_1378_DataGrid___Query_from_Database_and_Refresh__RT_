@@ -6,13 +6,37 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+  Children:
+  - Name: VarIntegerChanged1
+    Type: VariableChangedEventDispatcher
+    Children:
+    - Name: VariableNodePath
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: ".."
 - Name: VarBoolean
   Id: g=cdc96a38631862b7835afbb500fe9088
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
+  Children:
+  - Name: VarBooleanChanged1
+    Type: VariableChangedEventDispatcher
+    Children:
+    - Name: VariableNodePath
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: ".."
 - Name: VarString
   Id: g=59d8e5870336a192ee4ee35fea6973e5
   Type: BaseDataVariableType
   DataType: String
   Value: "hello"
+  Children:
+  - Name: VarStringChanged1
+    Type: VariableChangedEventDispatcher
+    Children:
+    - Name: VariableNodePath
+      Type: BaseVariableType
+      DataType: NodePath
+      Value: ".."
